@@ -54,7 +54,7 @@ jobs:
           #
           # [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
           # TODO: Create another account without admin permissions and add their SSH key
-          ssh-key: ${{secrets.SSH_FETCH}}
+          # ssh-key: ${{secrets.SSH_FETCH}}
 
           # Known hosts in addition to the user and global host key database. The public SSH
           # keys for a host may be obtained using the utility `ssh-keyscan`. For example,
